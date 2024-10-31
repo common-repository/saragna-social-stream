@@ -1,0 +1,135 @@
+<div class="wrap">
+<div class="meta-box-sortables ui-sortable">
+	<div class="postbox sav_timeline_admin_top marb0">
+		<div class="inside timeline_admin_inside">
+			<h3 class="h2_logo"><a href="<?php echo self::plugin_root_url();?>"><?php echo esc_html( 'Social Stream' ); ?></a></h3>
+		</div>
+	</div>
+</div>
+<?php 
+$animations = array(
+	'None' => '',
+	'bounce'		=>	'bounce',
+	'flash'			=>	'flash',
+	'pulse'			=>	'pulse',
+	'rubberBand'	=>	'rubberBand',
+	'shake'			=>	'shake',
+	'swing'			=>	'swing',
+	'tada'			=>	'tada',
+	'bounce'		=>	'bounce',
+	'wobble'		=>	'wobble',
+	'bounceIn'		=>	'bounceIn',
+	'bounceInDown'	=>	'bounceInDown',
+	'bounceInLeft'	=>	'bounceInLeft',
+	'bounceInRight'	=>	'bounceInRight',
+	'bounceInUp'	=>	'bounceInUp',
+	'fadeIn'			=>	'fadeIn',
+	'fadeInDown'		=>	'fadeInDown',
+	'fadeInDownBig'		=>	'fadeInDownBig',
+	'fadeInLeft'		=>	'fadeInLeft',
+	'fadeInLeftBig'		=>	'fadeInLeftBig',
+	'fadeInRight'		=>	'fadeInRight',
+	'fadeInRightBig'	=>	'fadeInRightBig',
+	'fadeInUp'			=>	'fadeInUp',
+	'fadeInUpBig'		=>	'fadeInUpBig',
+	'flip'	=>	'flip',
+	'flipInX'	=>	'flipInX',
+	'flipInY'	=>	'flipInY',
+	'lightSpeedIn'	=>	'lightSpeedIn',
+	'rotateIn'			=>	'rotateIn',
+	'rotateInDownLeft'	=>	'rotateInDownLeft',
+	'rotateInDownRight'	=>	'rotateInDownRight',
+	'rotateInUpLeft'	=>	'rotateInUpLeft',
+	'rotateInUpRight'	=>	'rotateInUpRight',
+	'slideInUp' => 'slideInUp',
+	'slideInDown' => 'slideInDown',
+	'slideInLeft' => 'slideInLeft',
+	'slideInRight' => 'slideInRight',
+	'zoomIn'		=>	'zoomIn',
+	'zoomInDown'	=>	'zoomInDown',
+	'zoomInLeft'	=>	'zoomInLeft',
+	'zoomInRight'	=>	'zoomInRight',
+	'zoomInUp'		=>	'zoomInUp',
+	'rollIn'	=>	'rollIn',
+	'twisterInDown'	=>	'twisterInDown',
+	'twisterInUp'	=>	'twisterInUp',
+	'swap'			=>	'swap',
+	'puffIn'	=>	'puffIn',
+	'vanishIn'	=>	'vanishIn',
+	'openDownLeftRetourn'	=>	'openDownLeftRetourn',
+	'openDownRightRetourn'	=>	'openDownRightRetourn',
+	'openUpLeftRetourn'		=>	'openUpLeftRetourn',
+	'openUpRightRetourn'	=>	'openUpRightRetourn',
+	'perspectiveDownRetourn'	=>	'perspectiveDownRetourn',
+	'perspectiveUpRetourn'		=>	'perspectiveUpRetourn',
+	'perspectiveLeftRetourn'	=>	'perspectiveLeftRetourn',
+	'perspectiveRightRetourn'	=>	'perspectiveRightRetourn',
+	'slideDownRetourn'	=>	'slideDownRetourn',
+	'slideUpRetourn'	=>	'slideUpRetourn',
+	'slideLeftRetourn'	=>	'slideLeftRetourn',
+	'slideRightRetourn'	=>	'slideRightRetourn',
+	'swashIn'		=>	'swashIn',
+	'foolishIn'		=>	'foolishIn',
+	'tinRightIn'	=>	'tinRightIn',
+	'tinLeftIn'		=>	'tinLeftIn',
+	'tinUpIn'		=>	'tinUpIn',
+	'tinDownIn'		=>	'tinDownIn',
+	'boingInUp'		=>	'boingInUp',
+	'spaceInUp'		=>	'spaceInUp',
+	'spaceInRight'	=>	'spaceInRight',
+	'spaceInDown'	=>	'spaceInDown',
+	'spaceInLeft'	=>	'spaceInLeft'
+);?>
+<form method="post" class="sav_twit_admin_form" action="<?php echo esc_url( admin_url('admin-post.php') ); ?>">
+<?php 
+if(isset($_GET['view']) && $_GET['view'] == 'setting'){
+$difault_grid_array = array(
+	'fb_type' => '@',
+	'fb_id' => '',
+	'fb_num' => '5',
+	'youtube_id' => '',
+	'youtube_playlist_id' => '',
+	'youtube_channel_id' => '',
+	'youtube_num' => '5',
+	'vimeo_id' => '',
+	'vimeo_num' => '5',
+	'twitter_type' => '@',
+	'twitter_id' => '',
+	'twitter_num' => '5',
+	'instagram_type' => '@',
+	'instagram_id' => '',
+	'instagram_num' => '5',
+    'title' => '',
+	'post_type' => '',
+    'skin_type' => '',
+	'car_display_item' => '4',
+    'car_pagination' => '',
+    'car_pagination_num' => '',
+    'car_navigation' => '',
+    'car_autoplay' => '',
+    'car_autoplay_time' => '5',
+    'grid_columns_count_for_desktop' => 'vcfti-col-md-3',
+    'grid_columns_count_for_tablet' => 'vcfti-col-sm-4',
+    'grid_columns_count_for_mobile' => 'vcfti-col-xs-12',
+    'excerpt_length' => '150',
+    'hide_media' => '',
+	'popup' => 'p1',
+    'effect' => '',
+	'cache_time' => '360',
+    'svc_class' => '',
+    'pbgcolor' => '',
+    'pbghcolor' => '',
+    'tcolor' => '',
+    'ftcolor' => '',
+    'ftacolor' => '',
+    'ftabgcolor' => '',
+	'car_navigation_color' => ''
+);
+	include('grid-setting.php');
+}else{
+	include('main.php');
+}?>
+</form>
+
+<div class="social_timeline_version"><?php esc_html_e('Social Grid Version','svc_social_feed');?> <?php echo $sssw_Version;?></div>
+</div>

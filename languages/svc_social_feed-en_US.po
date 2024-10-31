@@ -1,0 +1,422 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Saragna - Social Stream WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-08 12:29+0000\n"
+"PO-Revision-Date: 2019-03-08 12:30+0000\n"
+"Last-Translator: admin <khunthitesh32@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.1"
+
+#: admin/grid-setting.php:276 admin/grid-setting.php:289
+#: admin/grid-setting.php:303
+msgid "1 Column"
+msgstr ""
+
+#: admin/grid-setting.php:277 admin/grid-setting.php:290
+#: admin/grid-setting.php:304
+msgid "2 Columns"
+msgstr ""
+
+#: admin/grid-setting.php:278 admin/grid-setting.php:291
+#: admin/grid-setting.php:292 admin/grid-setting.php:305
+msgid "3 Columns"
+msgstr ""
+
+#: admin/grid-setting.php:279 admin/grid-setting.php:293
+#: admin/grid-setting.php:306
+msgid "4 Columns"
+msgstr ""
+
+#: admin/grid-setting.php:280 admin/grid-setting.php:294
+#: admin/grid-setting.php:307
+msgid "5 Columns"
+msgstr ""
+
+#: admin/grid-setting.php:411
+msgid "Active Filter text background color"
+msgstr ""
+
+#: admin/grid-setting.php:404
+msgid "Active Filter text color"
+msgstr ""
+
+#: admin/grid-setting.php:259
+msgid "AutoPlay"
+msgstr ""
+
+#: admin/grid-setting.php:266
+msgid "autoPlay Time"
+msgstr ""
+
+#: admin/grid-setting.php:348
+msgid "Cache Time"
+msgstr ""
+
+#: admin/grid-setting.php:218
+msgid "Carousel"
+msgstr ""
+
+#: admin/grid-setting.php:282
+msgid "Choose Desktop(PC Mode) Columns Count"
+msgstr ""
+
+#: admin/grid-setting.php:309
+msgid "Choose Mobile Columns Count"
+msgstr ""
+
+#: admin/grid-setting.php:228
+msgid "Choose skin type for grid layout"
+msgstr ""
+
+#: admin/grid-setting.php:296
+msgid "Choose Tablet Columns Count"
+msgstr ""
+
+#: admin/grid-setting.php:17
+msgid "Color Setting"
+msgstr ""
+
+#: admin/grid-setting.php:45 admin/grid-setting.php:88
+#: admin/grid-setting.php:117 admin/grid-setting.php:156
+#: admin/grid-setting.php:185
+msgid "Count per page limit"
+msgstr ""
+
+#: admin/grid-setting.php:313
+msgid "Description Length"
+msgstr ""
+
+#: admin/grid-setting.php:273
+msgid "Desktop Columns Count"
+msgstr ""
+
+#: admin/grid-setting.php:255
+msgid "Display \"next\" and \"prev\" buttons."
+msgstr ""
+
+#: admin/grid-setting.php:333
+msgid "Display Popup Content Style."
+msgstr ""
+
+#: admin/grid-setting.php:81
+msgid "Enter Channel ID"
+msgstr ""
+
+#: admin/grid-setting.php:41
+msgid ""
+"Enter Facebook Page or Username. Example : https://www.facebook."
+"com/VinDiesel/ only add <strong>VinDiesel</strong> in field"
+msgstr ""
+
+#: admin/grid-setting.php:181
+msgid ""
+"Enter Instagram UserID.It is only numeric id. create User ID <a href=\"https:"
+"//smashballoon.com/instagram-feed/find-instagram-user-id/\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: admin/grid-setting.php:74
+msgid "Enter Playlist ID"
+msgstr ""
+
+#: admin/grid-setting.php:210
+msgid "Enter Post grid title"
+msgstr ""
+
+#: admin/grid-setting.php:152
+msgid "Enter Twitter User name."
+msgstr ""
+
+#: admin/grid-setting.php:113
+msgid ""
+"Enter Vimeo User id.Example : https://vimeo.com/sonyprofessional only add "
+"<strong>sonyprofessional</strong> in field"
+msgstr ""
+
+#: admin/grid-setting.php:84
+msgid ""
+"Enter Youtube Channel id. Example : https://www.youtube.com/channel/UCY14-"
+"R0pMrQzLne7lbTqRvA?spfreload=10  only add <strong>UCY14-"
+"R0pMrQzLne7lbTqRvA</strong> in field"
+msgstr ""
+
+#: admin/grid-setting.php:77
+msgid ""
+"Enter Youtube Playlist id. Example : https://www.youtube.com/watch?"
+"v=9Pc81i6XOz0&list=LL2pmfLm7iq6Ov1UwYrWYkZA&spfreload=10 only add <strong>"
+"LL2pmfLm7iq6Ov1UwYrWYkZA</strong> in field"
+msgstr ""
+
+#: admin/grid-setting.php:70
+msgid ""
+"Enter Youtube User id. Example : https://www.youtube.com/user/vevo  only add "
+"<strong>vevo</strong> in field. please add only one field for youtube feed. "
+"User ID Or Playlist ID or Channel ID. not need 3 field fillup."
+msgstr ""
+
+#: admin/grid-setting.php:355
+msgid "Extra class name"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Facebook,YouTube Channel,Vimeo Social Streams Grid With Carousel for "
+"WordPress"
+msgstr ""
+
+#: admin/grid-setting.php:217
+msgid "Feed Layout"
+msgstr ""
+
+#: admin/grid-setting.php:337
+msgid "Feed load Effect"
+msgstr ""
+
+#: admin/grid-setting.php:397
+msgid "Filter text color"
+msgstr ""
+
+#: admin/grid-setting.php:143
+msgid "For Search Feed"
+msgstr ""
+
+#: admin/grid-setting.php:142
+msgid "For User"
+msgstr ""
+
+#: admin/grid-setting.php:16
+msgid "General"
+msgstr ""
+
+#: admin/grid-setting.php:320
+msgid "Hide Media"
+msgstr ""
+
+#: admin/grid-setting.php:252
+msgid "Hide navigation"
+msgstr ""
+
+#. Author of the plugin
+msgid "Hitesh Khunt"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://plugin.saragna.com/vc-addon"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.saragna.com/Hitesh-Khunt"
+msgstr ""
+
+#: admin/grid-setting.php:323
+msgid "If you check not display Media Image in feed."
+msgstr ""
+
+#: admin/grid-setting.php:358
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: admin/grid-setting.php:231
+msgid "Items Display"
+msgstr ""
+
+#: admin/grid-setting.php:418
+msgid "Load more Loader and Text Color"
+msgstr ""
+
+#: admin/grid-setting.php:300
+msgid "Mobile Columns Count"
+msgstr ""
+
+#: admin/grid-setting.php:425
+msgid "Navigation and Pagination color"
+msgstr ""
+
+#: admin/grid-setting.php:330
+msgid "Only Image/Video"
+msgstr ""
+
+#: admin/grid-setting.php:331
+msgid "Only Image/Video with Content"
+msgstr ""
+
+#: admin/grid-setting.php:38
+msgid "Page Username"
+msgstr ""
+
+#: saragna-social-stream.php:69
+msgid "Please add Social Credential in Social Setting."
+msgstr ""
+
+#: admin/grid-setting.php:327
+msgid "Popup Content Style"
+msgstr ""
+
+#: admin/grid-setting.php:377
+msgid "Post Background Color"
+msgstr ""
+
+#: admin/grid-setting.php:383
+msgid "Post hover Background Color"
+msgstr ""
+
+#. Name of the plugin
+msgid "Saragna - Social Stream WordPress"
+msgstr ""
+
+#: admin/grid-setting.php:446
+msgid "Save Setting"
+msgstr ""
+
+#: admin/grid-setting.php:268
+msgid "seconds"
+msgstr ""
+
+#: admin/grid-setting.php:34
+msgid "Select facebook User feed type."
+msgstr ""
+
+#: admin/grid-setting.php:344
+msgid "Select Feed load effect."
+msgstr ""
+
+#: admin/grid-setting.php:145
+msgid "Select Twitter User feed type."
+msgstr ""
+
+#: admin/grid-setting.php:28 admin/grid-setting.php:139
+msgid "Select Type"
+msgstr ""
+
+#: admin/grid-setting.php:414
+msgid "Set Active Filter text background color"
+msgstr ""
+
+#: admin/grid-setting.php:407
+msgid "Set Active Filter text color"
+msgstr ""
+
+#: admin/grid-setting.php:269
+msgid "Set Autoplay slider speed."
+msgstr ""
+
+#: admin/grid-setting.php:351
+msgid "Set Cache Time for Reducing the number of API calls."
+msgstr ""
+
+#: admin/grid-setting.php:316
+msgid ""
+"set Description length.default:150.If you set 0 no display Discription in "
+"fronted site"
+msgstr ""
+
+#: admin/grid-setting.php:400
+msgid "Set Filter text and border color"
+msgstr ""
+
+#: admin/grid-setting.php:48 admin/grid-setting.php:91
+#: admin/grid-setting.php:120 admin/grid-setting.php:159
+#: admin/grid-setting.php:188
+msgid "Set Limit for feed par page."
+msgstr ""
+
+#: admin/grid-setting.php:421
+msgid "set Load More Loader and Text color."
+msgstr ""
+
+#: admin/grid-setting.php:428
+msgid "Set Navigation and Pagination color"
+msgstr ""
+
+#: admin/grid-setting.php:380
+msgid "set post background color."
+msgstr ""
+
+#: admin/grid-setting.php:386
+msgid "set post hover background color"
+msgstr ""
+
+#: admin/grid-setting.php:262
+msgid "Set Slider Autoplay."
+msgstr ""
+
+#: admin/grid-setting.php:393
+msgid "Set Title Color"
+msgstr ""
+
+#: saragna-social-stream.php:69
+msgid "Setup here"
+msgstr ""
+
+#: admin/grid-setting.php:248
+msgid "Show numbers inside pagination buttons."
+msgstr ""
+
+#: admin/grid-setting.php:238 admin/grid-setting.php:241
+msgid "Show pagination"
+msgstr ""
+
+#: admin/grid-setting.php:245
+msgid "Show pagination Numbers"
+msgstr ""
+
+#: admin/grid-setting.php:223
+msgid "Skin type"
+msgstr ""
+
+#: admin/grid-setting.php:214
+msgid "Social Grid Type"
+msgstr ""
+
+#: admin/setting.php:134
+msgid "Social Grid Version"
+msgstr ""
+
+#: admin/grid-setting.php:226
+msgid "Style1"
+msgstr ""
+
+#: admin/grid-setting.php:286
+msgid "Tablet Columns Count"
+msgstr ""
+
+#: admin/grid-setting.php:234
+msgid ""
+"This variable allows you to set the maximum amount of items displayed at a "
+"time with the widest browser width"
+msgstr ""
+
+#: admin/grid-setting.php:207
+msgid "Title"
+msgstr ""
+
+#: admin/grid-setting.php:390
+msgid "Title Color"
+msgstr ""
+
+#: admin/grid-setting.php:443
+msgid "Update Setting"
+msgstr ""
+
+#: admin/grid-setting.php:110 admin/grid-setting.php:178
+msgid "User ID"
+msgstr ""
+
+#: admin/grid-setting.php:67 admin/grid-setting.php:149
+msgid "User name"
+msgstr ""
+
+#: admin/grid-setting.php:240 admin/grid-setting.php:247
+#: admin/grid-setting.php:254 admin/grid-setting.php:261
+#: admin/grid-setting.php:322
+msgid "Yes"
+msgstr ""
